@@ -85,7 +85,7 @@ customer-conversion-prediction/
 │   ├── scaler.pkl
 │   └── feature_columns.pkl
 ├──
-│   └── Copy_of_Untitlted8.ipynb
+│   └── experiment.ipynb
 └── reports/
     └── project_report.txt
 ```
