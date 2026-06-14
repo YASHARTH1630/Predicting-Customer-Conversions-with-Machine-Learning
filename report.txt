@@ -1,0 +1,34 @@
+Customer Conversion Prediction Using Machine Learning
+Project Overview
+The objective of this project was to develop a machine learning model capable of predicting whether a website visitor would convert into a customer. Accurate conversion prediction can help businesses improve targeting strategies, optimize marketing campaigns, and increase customer acquisition efficiency.
+Data Preparation & Feature Engineering
+The dataset was cleaned by handling missing values, encoding categorical variables, and standardizing numerical features. To improve predictive performance, several business-oriented features were engineered:
+•	Previous_Buyer – Indicates prior purchase activity or discount interaction.
+•	Engagement – Measures overall user activity based on products viewed and time spent on the website.
+•	Product_per_Minute – Captures browsing intensity during a session.
+•	Purchase_Rate – Reflects historical purchasing behavior relative to product views.
+•	Referral_Discount – Interaction feature combining referral traffic and discount exposure.
+Categorical variables such as Traffic Source, Device Type, and Age Group were transformed using one-hot encoding, while continuous features were scaled using StandardScaler.
+Model Development
+Multiple classification algorithms were evaluated, including Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, XGBoost, and LightGBM. Hyperparameter tuning was performed to optimize model performance and improve generalization.
+Results
+The tuned LightGBM model achieved the best overall performance:
+•	Accuracy: 65.69%
+•	F1-Score: 0.562
+•	True Positives: 573
+•	True Negatives: 1135
+Confusion Matrix
+Actual / Predicted	Non-Converter	Converter
+Non-Converter	1135	686
+Converter	206	573
+Key Insights
+Feature importance analysis revealed that customer behavior and marketing interactions were stronger predictors of conversion than demographic attributes. The most influential features included:
+•	Engagement
+•	Discount Seen
+•	Previous Purchases
+•	Previous Buyer
+•	Referral Traffic
+Users who exhibited higher engagement, interacted with discounts, or had previous purchasing history showed a significantly greater likelihood of conversion.
+Conclusion
+This project successfully developed a customer conversion prediction system using machine learning techniques. After feature engineering and hyperparameter tuning, LightGBM achieved the best performance with an F1-Score of 0.562 and an Accuracy of 65.69%. The findings demonstrate how behavioral analytics and customer interaction data can be leveraged to support data-driven marketing decisions and improve conversion-focused business strategies.
+
