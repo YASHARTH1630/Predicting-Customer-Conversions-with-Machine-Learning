@@ -80,12 +80,12 @@ customer-conversion-prediction/
 │
 ├── requirements.txt
 ├── README.md
-├── models/
+├── notebooks/
 │   ├── lightgbm_model.pkl
 │   ├── scaler.pkl
 │   └── feature_columns.pkl
-├── notebooks/
-│   └── customer_conversion_prediction.ipynb
+├──
+│   └── Copy_of_Untitlted8.ipynb
 └── reports/
     └── project_report.txt
 ```
