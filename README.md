@@ -80,6 +80,9 @@ customer-conversion-prediction/
 │
 ├── requirements.txt
 ├── README.md
+|──Dataset.zip
+|   |──train.csv
+|   |──public_test.csv
 ├── notebooks/
 │   ├── lightgbm_model.pkl
 │   ├── scaler.pkl
